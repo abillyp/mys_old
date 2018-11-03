@@ -6,8 +6,6 @@ create table PRODUCTS (
 
 GRANT ALL PRIVILEGES ON mystore.products  TO 'user'@'localhost';
 
-INSERT INTO PRODUCTS (P_VENUE,P_DATE) values ('TMV',now());
-INSERT INTO PRODUCTS (P_VENUE,P_DATE) values ('Ocr Global',now());
 INSERT INTO PRODUCTS (P_VENUE,P_DATE) values ('hybris Munich, Germany',now());
 INSERT INTO PRODUCTS (P_VENUE,P_DATE) values ('hybris Montreal, Canada',now());
 INSERT INTO PRODUCTS (P_VENUE,P_DATE) values ('hybris Boulder, USA',now());
